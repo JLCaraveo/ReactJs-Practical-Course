@@ -11,6 +11,7 @@
   "author": "Jose Luis Higuera Caraveo <jose.luis.higuera@hotmail.com>",
   "license": "ISC",
   "dependencies": {
+    "classnames": "^2.3.1",
     "md5": "^2.3.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",

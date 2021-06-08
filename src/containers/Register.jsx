@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import { registerRequest } from '../actions/'
+import { registerRequest } from '../actions'
 
 import '../assets/styles/components/Register.scss'
 
