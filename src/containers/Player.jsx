@@ -14,14 +14,16 @@ const Player = (props) => {
   }, [])
 
   return hasPlaying ? (
-    <div className="Player">
-      <video controls autoPlay>
-        <source src={props.playing.source} type="video/mp4" />
-      </video>
-      <div className="Player-back">
-        <button type="button" onClick={() => props.history.goBack()}>Regresar</button>
+    <React.Fragment>
+      <div className="Player">
+        <video controls autoPlay>
+          <source src={props.playing.source} type="video/mp4" />
+        </video>
+        <div className="Player-back">
+          <button type="button" onClick={() => props.history.goBack()}>Regresar</button>
+        </div>
       </div>
-    </div>
+    </React.Fragment>
   ) : <NotFound />
 }
 
